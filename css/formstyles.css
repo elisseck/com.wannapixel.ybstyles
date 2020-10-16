@@ -1,0 +1,31 @@
+h1 h2 h3 h4 h5 h6 legend {
+  color: #1c355e;
+}
+
+h1 {
+  border-bottom: 5px solid #1c355e;
+}
+
+.crm-container fieldset {
+  border-top: 1px solid #1c355e;
+}
+
+.crm-container a {
+  color: #e65400;
+}
+
+.crm-form-submit {
+  background: #e65400;
+}
+
+#priceset .price-set-option-content label {
+  background: #e65400;
+}
+
+body {
+  background-color: #fff;
+}
+
+.main-footer {
+  background-color: #fff;
+}
