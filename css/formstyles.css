@@ -4,6 +4,11 @@ body, h1, .crm-container fieldset legend, #crm-container.crm-public #crm-submit-
   font-family:'Century Gothic','Futura','Didact Gothic',san-serif!important;
 }
 
+h1 {
+  font-weight:bold!important;
+  text-transform:none!important;
+}
+
 h1 h2 h3 h4 h5 h6 legend {
   color: #1c355e;
 }
@@ -55,4 +60,16 @@ body {
 
 .main-footer {
   background: #fff;
+}
+
+.shadow-container {
+  display:none!important;
+}
+
+#boxes-box-footer_content a {
+  color: #1c355e;
+}
+
+#boxes-box-footer_content p {
+  color: #000;
 }
