@@ -20,11 +20,7 @@ h1 h2 h3 h4 h5 h6 legend {
 
 .page-header {
   color: #1c355e!important;
-  border-bottom: 5px solid #1c355e;
-}
-
-h1 {
-  border-bottom: 5px solid #1c355e;
+  border-bottom: none!important;
 }
 
 .crm-container fieldset {
@@ -82,4 +78,18 @@ body {
 
 #logo {
   height: 116px!important;
+}
+
+@media screen and (max-width: 1120px) {
+  .navigation-section-alt {
+    padding-left: 25%!important;
+    padding-right: 25%!important;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .navigation-section-alt {
+    padding-left: 25%!important;
+    padding-right: 25%!important;
+  }
 }
