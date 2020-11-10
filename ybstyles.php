@@ -6,7 +6,7 @@ use CRM_Ybstyles_ExtensionUtil as E;
 // phpcs:enable
 
 function ybstyles_civicrm_buildForm($formName, &$form) {
-  if (($formName == 'CRM_Contribute_Form_Contribution_Main' || $formName == 'CRM_Contribute_Form_Contribution_Confirm' || $formName == 'CRM_Contribute_Form_Contribution_ThankYou') && $form->getVar('_id') == 2) {
+  if (($formName == 'CRM_Contribute_Form_Contribution_Main' || $formName == 'CRM_Contribute_Form_Contribution_Confirm' || $formName == 'CRM_Contribute_Form_Contribution_ThankYou')) {
     CRM_Core_Resources::singleton()->addStyleFile('com.wannapixel.ybstyles', 'css/formstyles.css');
     CRM_Core_Resources::singleton()->addScriptFile('com.wannapixel.ybstyles', 'js/formstyles.js');
   }
